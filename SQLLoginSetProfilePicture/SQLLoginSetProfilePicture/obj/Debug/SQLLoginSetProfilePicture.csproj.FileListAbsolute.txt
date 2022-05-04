@@ -1,0 +1,17 @@
+C:\Users\Arjan Singh\Desktop\SQLLoginSetProfilePicture\SQLLoginSetProfilePicture\bin\Debug\SQLLoginSetProfilePicture.exe.config
+C:\Users\Arjan Singh\Desktop\SQLLoginSetProfilePicture\SQLLoginSetProfilePicture\bin\Debug\SQLLoginSetProfilePicture.exe
+C:\Users\Arjan Singh\Desktop\SQLLoginSetProfilePicture\SQLLoginSetProfilePicture\bin\Debug\SQLLoginSetProfilePicture.pdb
+C:\Users\Arjan Singh\Desktop\SQLLoginSetProfilePicture\SQLLoginSetProfilePicture\obj\Debug\SQLLoginSetProfilePicture.csprojAssemblyReference.cache
+C:\Users\Arjan Singh\Desktop\SQLLoginSetProfilePicture\SQLLoginSetProfilePicture\obj\Debug\MainWindow.g.cs
+C:\Users\Arjan Singh\Desktop\SQLLoginSetProfilePicture\SQLLoginSetProfilePicture\obj\Debug\App.g.cs
+C:\Users\Arjan Singh\Desktop\SQLLoginSetProfilePicture\SQLLoginSetProfilePicture\obj\Debug\SQLLoginSetProfilePicture_MarkupCompile.cache
+C:\Users\Arjan Singh\Desktop\SQLLoginSetProfilePicture\SQLLoginSetProfilePicture\obj\Debug\SQLLoginSetProfilePicture_MarkupCompile.lref
+C:\Users\Arjan Singh\Desktop\SQLLoginSetProfilePicture\SQLLoginSetProfilePicture\obj\Debug\MainWindow.baml
+C:\Users\Arjan Singh\Desktop\SQLLoginSetProfilePicture\SQLLoginSetProfilePicture\obj\Debug\SQLLoginSetProfilePicture.g.resources
+C:\Users\Arjan Singh\Desktop\SQLLoginSetProfilePicture\SQLLoginSetProfilePicture\obj\Debug\SQLLoginSetProfilePicture.Properties.Resources.resources
+C:\Users\Arjan Singh\Desktop\SQLLoginSetProfilePicture\SQLLoginSetProfilePicture\obj\Debug\SQLLoginSetProfilePicture.csproj.GenerateResource.cache
+C:\Users\Arjan Singh\Desktop\SQLLoginSetProfilePicture\SQLLoginSetProfilePicture\obj\Debug\SQLLoginSetProfilePicture.csproj.CoreCompileInputs.cache
+C:\Users\Arjan Singh\Desktop\SQLLoginSetProfilePicture\SQLLoginSetProfilePicture\obj\Debug\SQLLoginSetProfilePicture.exe
+C:\Users\Arjan Singh\Desktop\SQLLoginSetProfilePicture\SQLLoginSetProfilePicture\obj\Debug\SQLLoginSetProfilePicture.pdb
+C:\Users\Arjan Singh\Desktop\SQLLoginSetProfilePicture\SQLLoginSetProfilePicture\obj\Debug\LoginWindow.g.cs
+C:\Users\Arjan Singh\Desktop\SQLLoginSetProfilePicture\SQLLoginSetProfilePicture\obj\Debug\LoginWindow.baml
