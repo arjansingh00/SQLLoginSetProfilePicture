@@ -50,7 +50,7 @@ namespace SQLLoginSetProfilePicture
             {
                 dataTable = imgada.GetSingleImage(ImageSelector.SelectedItem.ToString());
             }
-            catch(NullReferenceException)
+            catch (NullReferenceException)
             {
                 dataTable = imgada.GetSingleImage(fileName);
             }
@@ -94,7 +94,7 @@ namespace SQLLoginSetProfilePicture
 
             DataTable dataTable = imgada.GetImageData(userName);
 
-            foreach(DataRow rows in dataTable.Rows)
+            foreach (DataRow rows in dataTable.Rows)
             {
                 ImageSelector.Items.Add(rows["FileName"].ToString());
             }
@@ -140,7 +140,7 @@ namespace SQLLoginSetProfilePicture
         {
             OpenFileDialog ofd = new OpenFileDialog() { Multiselect = false };
 
-            if(ofd.ShowDialog() == true)
+            if (ofd.ShowDialog() == true)
             {
                 ImageBrush brush = new ImageBrush();
                 brush.ImageSource = new BitmapImage(new Uri(ofd.FileName));
@@ -159,27 +159,22 @@ namespace SQLLoginSetProfilePicture
             }
         }
 
-        private void Update_Click(object sender, RoutedEventArgs e)
+        private void Delete_Click(object sender, RoutedEventArgs e)
         {
-            OpenFileDialog ofd = new OpenFileDialog() { Multiselect = false };
+            String fileName = ImageSelector.SelectedItem.ToString();
 
-            if (ofd.ShowDialog() == true)
+            DataSet1TableAdapters.ImageTableTableAdapter imgDelete = new DataSet1TableAdapters.ImageTableTableAdapter();
+            imgDelete.DeleteImageRecord(fileName);
+
+            if (ImageSelector.SelectedIndex == 0)
             {
-                ImageBrush brush = new ImageBrush();
-                brush.ImageSource = new BitmapImage(new Uri(ofd.FileName));
-                ImageCircle.Fill = brush;
 
-                Bitmap image = new Bitmap(ofd.FileName);
-
-                Byte[] imgData = ConvertImageToBinary(image);
-
-                DataSet1TableAdapters.ImageTableTableAdapter imgUpload = new DataSet1TableAdapters.ImageTableTableAdapter();
-
-                fileName = Path.GetFileName(ofd.FileName);
-
-                imgUpload.UpdateImage(imgData, fileName); // Updates record with new image data and file name
-                ImageSelector.SelectedItem = fileName;
-
+            }
+            else
+            {
+                ImageCircle.Fill = null;
+                ImageSelector.SelectedIndex = ImageSelector.SelectedIndex - 1;
+                ImageSelector.Items.Remove(fileName);
             }
         }
     }

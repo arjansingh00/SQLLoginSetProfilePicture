@@ -28,12 +28,12 @@
         </Ellipse>
         <Ellipse x:Name="ImageCircle" Width="250" Height="250" Grid.Column="1"/>
         <Label x:Name="UserName" Grid.Column="1" Grid.Row="1" Content="User Name" HorizontalContentAlignment="Center" Margin="0,0,0,0" FontSize="48" Foreground="White"/>
-        <ComboBox x:Name="ImageSelector" Width="300" Height="30" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" Margin="0,0,0,20" SelectionChanged="ImageSelector_SelectionChanged" FontSize="16">
+        <ComboBox x:Name="ImageSelector" Width="300" Height="30" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" Margin="0,0,0,20" SelectionChanged="ImageSelector_SelectionChanged" FontSize="16" SelectedIndex="1">
             <ComboBoxItem></ComboBoxItem>
         </ComboBox>
         <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" Height="40" Margin="0,130,0,0">
             <Button x:Name="Upload" VerticalContentAlignment="Center" Width="100" Margin="0,0,25,0" Style="{DynamicResource RoundedButtonStyle}" Click="Upload_Click">Upload</Button>
-            <Button x:Name="Update" VerticalContentAlignment="Center" Width="100" Margin="25,0,0,0" Style="{DynamicResource RoundedButtonStyle}" Click="Update_Click" IsEnabled="False">Update</Button>
+            <Button x:Name="Delete" VerticalContentAlignment="Center" Width="100" Margin="25,0,0,0" Style="{DynamicResource RoundedButtonStyle}" Click="Delete_Click">Delete</Button>
         </StackPanel>
     </Grid>
 </Window>
